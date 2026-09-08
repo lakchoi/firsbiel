@@ -149,10 +149,18 @@ button, input, select, textarea { font: inherit; }
   flex-wrap: wrap;
 }
 
+.stats-heading {
+  margin-top: 38px;
+  color: var(--primary-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
 .hero-stats {
   list-style: none;
   padding: 0;
-  margin: 38px 0 0;
+  margin: 14px 0 0;
   display: flex;
   gap: 28px;
   flex-wrap: wrap;
