@@ -231,6 +231,14 @@ button, input, select, textarea { font: inherit; }
 
 .mini-card span { color: var(--muted); font-size: 0.78rem; }
 
+.recruitment-card {
+  background: #fff0ee;
+  border: 1px solid #f2b8b2;
+}
+
+.recruitment-card span,
+.recruitment-card strong { color: #b52f25; }
+
 .apartment-visual {
   margin: 20px 0;
   background: linear-gradient(180deg, #eaf5f3 0%, #deefe9 100%);
