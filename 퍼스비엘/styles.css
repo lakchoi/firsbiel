@@ -300,12 +300,18 @@ button, input, select, textarea { font: inherit; }
 .feature-card h3, .unit-card h3, .process-item h3 { margin: 0 0 12px; font-size: 1.35rem; }
 .feature-card p, .unit-card p, .process-item p, .form-copy p, .footer p, .check-list { color: var(--muted); line-height: 1.8; }
 
-.unit-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
-.unit-card { padding: 30px 24px; }
+.unit-grid { display: grid; grid-template-columns: minmax(0, 680px); justify-content: center; }
+.unit-card { padding: 42px 44px; }
 .unit-card.featured {
   background: linear-gradient(180deg, #1e8f7c 0%, #165f56 100%);
   border-color: transparent;
   color: white;
+  box-shadow: 0 20px 48px rgba(17, 95, 86, 0.2);
+}
+.unit-card.featured h3 {
+  font-size: clamp(2.8rem, 6vw, 4.8rem);
+  line-height: 1;
+  margin-bottom: 18px;
 }
 .unit-card.featured p, .unit-card.featured li, .unit-card.featured .unit-tag { color: rgba(255,255,255,0.88); }
 .unit-tag {
