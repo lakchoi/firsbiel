@@ -138,6 +138,20 @@ button, input, select, textarea { font: inherit; }
   margin: 18px 0 16px;
 }
 
+.hero-cta-line {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 16px 11px;
+  border-left: 6px solid var(--primary);
+  border-radius: 10px;
+  background: var(--accent);
+  color: var(--primary-dark);
+  font-size: clamp(1.2rem, 2vw, 1.85rem);
+  line-height: 1.35;
+  letter-spacing: -0.04em;
+  box-shadow: 0 10px 24px rgba(17, 95, 86, 0.1);
+}
+
 .hero-copy p {
   color: var(--muted);
   font-size: 1.06rem;
