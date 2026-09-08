@@ -101,7 +101,6 @@ button, input, select, textarea { font: inherit; }
   background: #c9362b;
   border-color: #c9362b;
   color: white;
-  box-shadow: 0 12px 28px rgba(201, 54, 43, 0.24);
 }
 
 .btn-primary {
@@ -114,6 +113,13 @@ button, input, select, textarea { font: inherit; }
   background: white;
   color: var(--text);
   border: 1px solid var(--line);
+}
+
+.btn-secondary.btn-call {
+  background: #c9362b;
+  border-color: #c9362b;
+  color: white;
+  box-shadow: none;
 }
 
 .hero {
