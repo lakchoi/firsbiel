@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formData = new FormData(form);
     const name = (formData.get('name') || '').toString().trim();
     const phone = (formData.get('phone') || '').toString().trim();
-    const unit = (formData.get('unit') || '59㎡').toString().trim();
+    const unit = (formData.get('unit') || '39㎡').toString().trim();
     const inquiryType = (formData.get('inquiryType') || '').toString().trim();
     const message = (formData.get('message') || '').toString().trim();
 
